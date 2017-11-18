@@ -86,15 +86,16 @@ header{
 	height: 130px;
 	z-index: 99;
 	background-color: #22a079;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -moz-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -o-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -ms-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -webkit-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
 header .logo{
 	display: table-cell;
-	margin: 45px 100px 0 0;
+	margin: 28px 100px 0 0;
 }
 
 header .burger_icon{
@@ -106,7 +107,7 @@ header .burger_icon{
 
 	color: #43b779;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 14px;
 
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -115,7 +116,7 @@ header .burger_icon{
 	margin: 45px 10px 0 0;
 }
 
-header .burger_icon:hover{
+header .burgeron:hover{
 	cursor: pointer;
 }
 
@@ -211,9 +212,9 @@ header .social li:first-child{
 .hero .caption p{
 	color: #6d6c6c;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 30px;
-	margin: 15px 0 35px 0;
+	margin: 15px 0 10px 0;
 }
 
 #slider .caption p{
@@ -403,6 +404,7 @@ a.app_link{
 	line-height: 46px;
 	margin: 0 0 20px 0;
 	word-break: break-word;
+	margin-bottom : 10px;
 }
 
 .about .features_list p{
@@ -418,6 +420,7 @@ a.app_link{
 }
 
 .about .features_list ul li{
+	margin-top : 20px;
 	display: block;
 	position: relative;
 	color: #6c6c6c;
@@ -456,6 +459,10 @@ a.app_link{
 	background: url('../img/icon5.png') no-repeat;
 	background-position: 3px 13px; 
 }
+.about .features_list ul li.play_hover{	
+	background: url('../img/play_hover.png') no-repeat;
+	background-position: 3px 13px; 
+}
 
 .about .features_list ul li span{
 	display: inline-block;
@@ -476,10 +483,11 @@ a.app_link{
 	width: 100%;
 	padding: 100px 0 20px 0;
 	background-color: #22a079;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -moz-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -o-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -webkit-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -ms-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
 .app_features h1{
@@ -623,10 +631,12 @@ a.app_link{
 	width: 100%;
 	padding: 100px 0;
 	text-align: center;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-color:#22a079
+	background-image: -moz-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -o-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -webkit-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -ms-linear-gradient(bottom, #22a079 0%, #22a079 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
 .sub_box .cta_text{
@@ -664,7 +674,8 @@ a.app_link{
 .sub_box #mc_submit{
 	width: 60px;
 	height: 50px;
-
+	margin :0px;
+	padding : 0px;
 	border-top-right-radius: 2px;
 	-o-border-top-right-radius: 2px;
 	-moz-border-top-right-radius: 2px;
@@ -679,6 +690,7 @@ a.app_link{
 	border: 0;
 	outline: none;
 	margin-right: -4px;
+vertical-align: top;
 	text-align: center;
 }
 
@@ -782,7 +794,7 @@ footer .app_platform li:first-child{
 	header nav{
 		width: 100%;
 		float: none;
-		background: #47ad76;
+		background: #22a079;
 		position: absolute;
 		margin-top: 130px;
 		left: 0;
@@ -832,7 +844,6 @@ footer .app_platform li:first-child{
 
 	.app_store_btn{
 		display: block;
-		width: 90%;
 		padding-left: 0;
 		padding-right: 0;
 		text-align: center;
@@ -858,7 +869,6 @@ footer .app_platform li:first-child{
 
 	/*		About Section 		*/
 	.about .features_list {
-		text-align: center;
 		margin: 0;
 	}
 
