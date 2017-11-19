@@ -4,7 +4,7 @@
 	<!--  App Title  -->
 	<title>USDT快兑，USDT兑换人民币，快捷无需注册</title>
 	<!--  App Description  -->
-	<meta name="description" content="USDT兑换人民币；方便快捷，无需注册，安全有保障"/>
+	<meta name="description" content="USDT快兑，是一个快速现实人民币和USDT兑换的线下交易通道，方便快捷，无需注册，安全有保障"/>
 	<meta charset="utf-8">
 	<meta name="author" content="pixelhint.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
@@ -24,6 +24,12 @@
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/nicescroll.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		function jump (hash) {
+			window.location.hash = ''
+			window.location.hash = hash
+		}
+	</script>
 </head>
 <body>
 	
@@ -37,9 +43,9 @@
 			
 			<nav class="pull-left">
 				<ul class="list-unstyled">
-					<li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="#about">USTD快兑细则</a></li>
-					<li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="#app_features">我们的优势</a></li>
-					<li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="#testimonials">关于我们</a></li>
+					<li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="javascript:void(0)" onclick="jump('#about')">USTD快兑细则</a></li>
+					<li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="javascript:void(0)" onclick="jump('#app_features')">我们的优势</a></li>
+					<li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="javascript:void(0)" onclick="jump('#testimonials')">关于我们</a></li>
 				</ul>
 			</nav>
 			<!--
@@ -73,7 +79,18 @@
 				
 				<p style="color:#22a079" class=" animated wow fadeInLeft">无任何差价费，仅收1%手续费，扫描微信马上兑换</p>
 				
-				<a class="app_store_btn text-uppercase animated wow fadeInLeft">
+				<ul class="list-unstyled text-center clearfix">
+					<li class="col-xs-6 col-sm-6 col-md-6 animated wow fadeInDown" style="text-align: center;">
+						<h4>微信</h4>
+						<img class="qrcode_img" src="img/qr_wx.png">
+					</li>
+					<li class="col-xs-6 col-sm-6 col-md-6 animated wow fadeInDown" data-wow-delay=".2s" style="text-align: center;">
+						<h4>公众号</h4>
+						<img class="qrcode_img" src="img/qr_gzh.png">
+					</li>
+				</ul>
+
+<!-- 				<a class="app_store_btn text-uppercase animated wow fadeInLeft">
 					<span>微信</span>
 					<p style="margin:0px;padding:0px"><img class="qrcode_img" src="img/qr_wx.png"></p>
 				</a>
@@ -81,7 +98,7 @@
 				<a class="app_store_btn text-uppercase animated wow fadeInLeft">
 					<span>公众号</span>
 					<p style="margin:0px;padding:0px"><img class="qrcode_img" src="img/qr_gzh.png"></p>
-				</a>
+				</a> -->
 			</div>			
 		</div>
 	</section>
@@ -126,7 +143,7 @@
 			<div class="row">
 				<div class="col-md-6 text-center animated wow fadeInLeft">
 					<div class="iphone">
-						<img style="width:450px" src="img/step.png" alt="" titl="">
+						<img style="max-width:450px" src="img/step.png" alt="" titl="">
 					</div>
 				</div>
 				<div class="col-md-6 animated wow fadeInRight">
